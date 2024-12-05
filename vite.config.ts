@@ -24,10 +24,10 @@ export default defineConfig({
     target: "esnext",
     lib: {
       // Could also be a dictionary or array of multiple entry points
-      entry: path.resolve(process.cwd(), "src/main.ts"),
-      name: "query-ai",
+      entry: path.resolve(process.cwd(), "./src/main.ts"),
+      name: "vite-node-bug",
       // the proper extensions will be added
-      fileName: "query-ai",
+      fileName: "vite-node-bug",
       formats: [
         "es"
       ]
