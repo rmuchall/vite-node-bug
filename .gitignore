@@ -1,0 +1,11 @@
+# Node modules
+/node_modules
+
+# Webstorm - workspace
+/.idea/workspace.xml
+
+# Webstorm - httpRequest
+/.idea/httpRequests
+
+# Dist
+/dist
